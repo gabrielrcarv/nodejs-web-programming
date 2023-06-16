@@ -89,6 +89,7 @@ app.delete("/deleteProgrammer", async (req, res) => {
 
 app.put("/updateProgrammer", async (req, res) => {
   const params = req.body;
+  res.send("Updated!");
 
   if (!("id" in params)) {
     res.send('Missing "id" in request body');
