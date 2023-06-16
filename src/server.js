@@ -17,6 +17,11 @@ app.get("/syncDatabase", async (req, res) => {
   }
 });
 
+app.get('/retrieveProgrammer', async(req, res)=>{
+    const records = await programmer.findAll();
+        res.send(records);
+})
+
 app.post("/createProgrammer", async (req, res) => {
   try {
     const params = req.body;
