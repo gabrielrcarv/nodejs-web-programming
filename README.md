@@ -1,5 +1,3 @@
-# Programa de Estágio em Programação Teknisa 2023.
-
 CRUD API developed in NodeJS.
 
 Documentation link: https://documenter.getpostman.com/view/28019788/2s93sgYB8s
